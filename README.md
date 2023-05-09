@@ -18,4 +18,4 @@ The overall structure is:
 
 ## Results
 The EBC mode does NOT satisfies the strict avalanche effect since only the block that contains the different bit changes, so half of the cipher-text stays the same. The rate in EBC is around $25\%$.
-In CBC mode we get a rate around $50\%$, so it satisfies the avalanche effect. That is because it uses and random initial vector with which we $XOR$ the cipher-text. So even if only one bit changes, the initial vector when we encrypt both messages will be different and us a result bits are going to change in both blocks.
+In CBC mode we get a rate around $50\%$, so it satisfies the avalanche effect. That is because it uses and random initial vector with which we $XOR$ the cipher-text. So even if only one bit changes, the initial vector when we encrypt both messages will be different and as a result bits are going to change in both blocks.
