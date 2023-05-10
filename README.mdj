@@ -1,7 +1,7 @@
 # Avalanche_Effect_on_AES-128
 
 Avalanche effect is a desirable property in cryptographic algorithms, where a slight change in the input text or they key, leads to a significant change in the cipher-text.
-This project uses the bit independence criterion which states that output bits $j$ and $k$ should change independently when  any input bit $i$ is inverted, for all $i$,$j$ and $k$.
+This project uses the bit independence criterion which states that output bits $j$ and $k$ should change independently when  any input bit $i$ is inverted, for all $i$, $j$ and $k$.
 The idea is to create at least 30 pairs of messages (here we create 50), where the first is the original message and the second is a message that differs in one bit. Then, we calculate the rate of the bits that changed in both EBC and CBC modes for all the pairs. If the rate is equal or greater than $50\%$, then the cryptosystem satisfies the strict avalanche effect. The messages we randomly generate are $256$ $bits$. So AES-128 will break each message in two block and will encrypt each block independetly.
 
 
