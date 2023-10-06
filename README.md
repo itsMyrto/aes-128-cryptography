@@ -1,4 +1,4 @@
-# Avalanche_Effect_on_AES-128
+# AES-128 and the avalanche effect
 
 Avalanche effect is a desirable property in cryptographic algorithms, where a slight change in the input text or they key, leads to a significant change in the cipher-text.
 This project uses the bit independence criterion which states that output bits $j$ and $k$ should change independently when  any input bit $i$ is inverted, for all $i$, $j$ and $k$.
